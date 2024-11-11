@@ -1,0 +1,67 @@
+
+.heading{
+    height: 200px;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.bottomPage{
+    background-color: #282b33;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 60px;
+}
+
+.card-container{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #3c3e44;
+    display: flex;
+    width: 90%;
+    border-radius: 10px;
+    height: 220px;
+}
+.card-container img{
+    border-radius: 10px 0px 0px 10px;
+}
+.info{
+    padding: 10px;
+    color: white;
+}
+.blur{
+    color: grey;
+}
+
+.prevnxtbtn{
+    display: flex;  
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+   
+}
+.prevbtn,.nextbtn{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(218, 226, 236);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    height: 400px;
+    background-color: #0d0e10;
+}
+.footer p{
+    font-size: small;
+    margin: 0px;
+    padding-top: 200px;
+    color: white;
+}

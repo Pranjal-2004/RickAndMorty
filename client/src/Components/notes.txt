@@ -1,0 +1,17 @@
+React Query:
+
+QueryClientProvider:
+client = queryClient:
+
+it has basically four functions:
+1. Loading
+2. Idle
+3. error
+4. edit
+
+const [data,status] = useQuery('characters',functionName)
+if(status==='Loading')
+    return <h1>...Loading</h1>
+
+if( status==='error')
+    return <h1>...Error</h1>
