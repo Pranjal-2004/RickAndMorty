@@ -3,7 +3,7 @@ import "../App.css"
 const Heading = () => {
   return (
     <div className='heading'>
-        <h1>The Rick And Morty API</h1>
+        <span>The Rick And Morty API</span>
     </div>
   )
 }
